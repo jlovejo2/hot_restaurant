@@ -11,7 +11,7 @@ app.get("/", function(req, res) {
   
 
 function handleRequest(req, res) {
-    response.end("It Works!! Path Hit: " + request.url);
+    res.end("It Works!! Path Hit: " + request.url);
 }
 
 var server = http.createServer(handleRequest);
