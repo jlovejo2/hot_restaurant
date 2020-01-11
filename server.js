@@ -1,3 +1,5 @@
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 var express = require("express");
 var path = require("path");
 
